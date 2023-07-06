@@ -1,6 +1,6 @@
 
 body { 
-    background-image: url(/Assets/background-image.jpeg);
+    background-image: url(/background-image.jpeg);
 }
  
 
@@ -36,19 +36,19 @@ img {
 }
 
 .standard { background-color: aquamarine;
-    background-image: url(/Assets/blue-image.avif);
+    background-image: url(/blue-image.avif);
     background-size: cover;
 }
 
 .premium { 
     background-color: rgb(71, 61, 7);
-    background-image: url(/Assets/gold-image.avif);
+    background-image: url(/gold-image.avif);
     background-size: cover;
 }
 
 .platinum { 
     background-color: silver;
-    background-image: url(/Assets/black-image.webp);
+    background-image: url(/black-image.webp);
     background-size: cover;
 }
 
