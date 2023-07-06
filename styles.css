@@ -1,0 +1,119 @@
+
+body { 
+    background-image: url(/Assets/background-image.jpeg);
+}
+ 
+
+h1 {  font-family: 'Philosopher', sans-serif;
+    font-size: 35px;
+}
+
+
+.flex-container { 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.flex-container > * { 
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    border-radius: 5%;
+    border-top-left-radius: 15%;
+    border: solid black 3px ;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+img { 
+    height: 400px;
+    width: 300px;
+}
+
+.standard { background-color: aquamarine;
+    background-image: url(/Assets/blue-image.avif);
+    background-size: cover;
+}
+
+.premium { 
+    background-color: rgb(71, 61, 7);
+    background-image: url(/Assets/gold-image.avif);
+    background-size: cover;
+}
+
+.platinum { 
+    background-color: silver;
+    background-image: url(/Assets/black-image.webp);
+    background-size: cover;
+}
+
+
+#sta { 
+    color: black;
+    
+}
+
+#pre { 
+    color: goldenrod;
+}
+
+#plt { 
+    color: rgba(142, 142, 142, 0.982);
+}
+
+.standard h2 { 
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.standard p { 
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.premium h2 { 
+    color: goldenrod;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.premium p { 
+    color: goldenrod;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.platinum h2 { 
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.platinum p { 
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+@media (max-width: 800px) { 
+    body { 
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-container { 
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .flex-container > * { 
+        flex: 1;
+        min-width: 200px;
+        border-radius: 38%;
+    }
+
+    
+}
