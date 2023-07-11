@@ -1,7 +1,7 @@
 
 body { 
     background-image: url(background-image.jpeg);
-    background: linear-gradient(to right, #21c8cb, #f7f8f6);
+    background: linear-gradient(to right, rgb(99, 213, 228), goldenrod);
 }
  
 
